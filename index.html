@@ -1,3 +1,68 @@
+<html>
+<style>
+	img {
+		margin: auto;		
+		display: flex;
+		justify-content: center;
+	}
+
+	.center {
+	  margin: 0;
+	  position: absolute;
+	  top: 46%;
+	  left: 50%;
+	  -ms-transform: translate(-50%, -50%);
+	  transform: translate(-50%, -50%);
+	}
+
+	.logo-position {
+		margin: 0;
+		position: absolute;
+		top: 32.9%;
+		left: 50%;
+		-ms-transform: translate(-50%, -50%);
+		transform: translate(-50%, -50%);
+	}
+
+	.button-position{
+		margin: 0;
+		position: absolute;
+		top: 150%;
+		left: 50%;
+		-ms-transform: translate(-50%, -50%);
+		transform: translate(-50%, -50%);	
+	}
+
+	button {
+		border: none;
+		background-color: rgb(248, 249, 250);
+		/* padding: 12px 25px; */
+		text-align: center;
+		color: black;
+		display: inline-block;
+		font-size: 14px;
+		margin: 4px 2px;
+		cursor: pointer;
+		height: 40px;
+	}
+</style>
+
 <body>
-	<img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="">
+	
+	<img class = "logo-position" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
+
+	<div class="center">
+		<form>
+			<input type="text" style="border-radius: 50px 50px 50px 50px; width: 590px; height: 45px;">
+			<div class="button-position" id="button-size">
+				<button type="button">Google Search</button>
+				<button type="button">I'm Feeling Lucky</button>
+			</div>
+		</form>
+	</div>
+
+
 </body>
+
+</html>
+
